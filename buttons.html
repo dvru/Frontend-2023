@@ -74,8 +74,7 @@
   }
 
   .uber-button:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
-
+    opacity: 0.8;
   }
 
 
@@ -85,6 +84,10 @@
     height: 28px;
     width: 170px;
     border-radius: 14px;
+  }
+
+  .amazon-button:hover {
+    background-color: rgb(228, 191, 8);
   }
 
   .github-button{
@@ -97,6 +100,11 @@
     font-weight: bold;
     font-size: 12px;
     margin-right: 12px;
+    transition: box-shadow 0.15s;
+  }
+
+  .github-button:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
   }
 
   .bootstrap-button1 {
@@ -110,6 +118,11 @@
     font-size: 10px;
     margin-right: 1px;
     margin-bottom: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .bootstrap-button1:hover {
+    background-color:  rgb(100, 45, 182);;
   }
 
   .bootstrap-button2 {
@@ -122,6 +135,13 @@
     font-weight: bold;
     font-size: 10px;
     margin-right: 3px;
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+
+  .bootstrap-button2:hover {
+    background-color: grey;
+    color: white;
   }
 
   .linkedIn-button1 {
@@ -134,8 +154,13 @@
     font-weight: bold;
     font-size: 12px;
     margin-right: 3=2px;
+    transition: background-color 0.15s;
   }
-  
+
+  .linkedIn-button1:hover {
+    background-color: rgb(6, 84, 162);
+  }
+
   .linkedIn-button2{
     color: rgb(10,102,194);
     border-style: solid;
@@ -146,7 +171,16 @@
     border-radius: 14px;
     font-weight: bold;
     font-size: 12px;
+    transition: background-color 0.15s,
+      border-width 0.15s;
   }
+
+  .linkedIn-button2:hover {
+    background-color: rgb(199, 224, 232);
+    border-width: 1.5px;
+  }
+
+
 
 </style>
 
