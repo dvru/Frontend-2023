@@ -1,0 +1,192 @@
+
+.uber-button {
+  background-color: black;
+  color: white;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 11px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+
+.amazon-button{
+  background-color: rgb(255, 216, 20);
+  border-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 2px;
+  border-radius: 14px;
+}
+
+.amazon-button:hover {
+  background-color: rgb(228, 191, 8);
+}
+
+.github-button{
+  background-color: rgb(46,164,79);
+  border: none;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 8px;
+  margin-right: 12px;
+  transition: box-shadow 0.15s;
+}
+
+.github-button:hover {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-button1 {
+  background-color: rgb(121,82,179);
+  color: white;
+  border-style: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 1px;
+  margin-bottom: 8px;
+  transition: background-color 0.15s;
+}
+
+.bootstrap-button1:hover {
+  background-color:  rgb(100, 45, 182);;
+}
+
+.bootstrap-button2 {
+  color: rgb(108,117,125);
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border-radius: 2px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 3px;
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.bootstrap-button2:hover {
+  background-color: grey;
+  color: white;
+}
+
+.linkedIn-button1 {
+  background-color: rgb(10,102,194);
+  color: white;
+  border-style: none;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 3=2px;
+  transition: background-color 0.15s;
+}
+
+.linkedIn-button1:hover {
+  background-color: rgb(6, 84, 162);
+}
+
+.linkedIn-button2{
+  color: rgb(10,102,194);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(10,102,194);
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 12px;
+  transition: background-color 0.15s,
+    border-width 0.15s;
+}
+
+.linkedIn-button2:hover {
+  background-color: rgb(199, 224, 232);
+  border-width: 1.5px;
+}
+
+.back-button1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.search-link {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+}
+
+.next-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.stretch-button {
+  background-color: green;
+  border: none;
+  color:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  transition: 0.5s;
+}
+
+.stretch-button:hover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+.shadow-button {
+  background-color: green;
+  border: none;
+  color:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-button:active {
+  margin-top: 2px;
+  margin-left: 2px;
+  box-shadow: none;
+}
