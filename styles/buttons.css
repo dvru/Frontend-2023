@@ -69,15 +69,3 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
-.uber-button {
-  background-color: black;
-  color: white;
-  border-style: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
-  font-size: 11px;
-  margin-right: 8px;
-  margin-bottom: 8px;
-}
