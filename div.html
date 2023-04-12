@@ -107,6 +107,10 @@
       }
 
 
+      /* cat container */
+
+
+
       p {
         font-family: Arial;
         margin-bottom: 5px;
@@ -118,12 +122,12 @@
         width: 220px;
         height: 335px;
         box-shadow: 1px 1px 6px gray;
-        display: inline-block;
+        
         margin-right: 20px;
         margin-bottom: 40px;
       }
 
-      .cat-name{
+      .cat-name {
         font-size: 20px;
         font-weight: bold;
       }
@@ -131,7 +135,11 @@
       .cat-friends{
         font-size: 15px;
         color: grey;
+        vertical-align: middle;
+        color: rgb(100, 100, 100);
+        
       }
+     
 
       .add-me {
         margin-left: 10px;
@@ -145,6 +153,16 @@
         padding-right: 18px;
         border-radius: 5px;
         }
+
+
+        .cat-container {
+          display: grid;
+          grid-template-columns: 250px 250px 250px;
+          vertical-align: center;
+        }
+
+
+        /* google search */
 
 
         .google-image{
@@ -205,13 +223,7 @@
         
       }
         
-      .cat-friends {
-
-        vertical-align: middle;
-        color: rgb(100, 100, 100);
-        display: inline-block;
-      }
-
+     
     </style>
 
     <body>
@@ -251,66 +263,56 @@
       </div>
 
 
+
+      <div class="cat-container">
         <div class="cat-card">
-
-            <img class="cat-image" src="cat.jpeg">
-
-            <p class="cat-name">
-              Oliver
+          <img class="cat-image" src="cat.jpeg">
+          <p class="cat-name">
+            Oliver
+          </p>
+            <p class="cat-friends">
+            2 mutual friends
             </p>
+          <button class="add-me">
+            Add Friend
+          </button>
+      </div>
 
-            <div class="second-row">
-              <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
-              
-              <p class="cat-friends">
-              2 mutual friends
-              </p>
-            </div>
-
-            <button class="add-me">
-              Add Friend
-            </button>
-
+      <div class="cat-card">
+        <img class="cat-image" src="cat.jpeg">
+          <p class="cat-name">
+            Oliver
+          </p>
+          <p class="cat-friends">
+            2 mutual friends
+          </p>
+          <button class="add-me">
+            Add Friend
+          </button>
         </div>
-
-
-
-
-
 
         <div class="cat-card">
           <img class="cat-image" src="cat.jpeg">
-
-            <p class="cat-name">
-              Oliver
-            </p>
-            <p class="cat-friends">
-              2 mutual friends
-            </p>
-
-            <button class="add-me">
-              Add Friend
-            </button>
-          </div>
-
-
-
-
-          <div class="cat-card">
-            <img class="cat-image" src="cat.jpeg">
-                <p class="cat-name">
-                  Oliver
+              <p class="cat-name">
+                Oliver
+              </p>
+                <p class="cat-friends">
+                  2 mutual friends
                 </p>
-                  <p class="cat-friends">
-                    2 mutual friends
-                  </p>
-                <button class="add-me">
-                  Add Friend
-                </button>
+              <button class="add-me">
+                Add Friend
+              </button>
+        </div>
+      </div>
+        
 
 
 
-          </div>
+
+
+
+
+
           <div class="google-search-header">
             <img class="google-image" src="google.jpeg">
             <input class="google-search" type="text" placeholder="Search Google or type a URL">
