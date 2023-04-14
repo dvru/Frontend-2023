@@ -84,10 +84,11 @@
 
 .right-section {
   width: 180px;
-  justify-content: space-between;
+  margin-right: 24px;
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .upload-icon {
@@ -105,5 +106,4 @@
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
-  margin-right: 10px;
 }
