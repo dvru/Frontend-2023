@@ -1,3 +1,7 @@
+.video-preview {
+ 
+}
+
 
 .thumbnail {
   width: 100%;
@@ -61,15 +65,15 @@
 }
 
 
-@media (mid-width: 751px) and (max-width: 999px) {
+@media (mid-width: 751px) and (max-width: 1399px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1400px) {
   .video-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
